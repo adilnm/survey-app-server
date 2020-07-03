@@ -4,10 +4,10 @@ import Header from "./Header";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <BrowserRouter>
         <div>
-            <Header/>
+          <Header />
         </div>
       </BrowserRouter>
     </div>
